@@ -1,18 +1,34 @@
+import {
+  Route,
+  Link
+} from 'react-router-dom';
+
+
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Background from './Background.js';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <nav>
+          <Link to='/' className="heads-up-nav">Home </Link>
+          <Link to="/background" className="heads-up-nav">Background</Link>
+        </nav>
+        <div className="App">
+          <header className="App-header">
+            <h1 className="h1dog">
+              Welcome to Barefoot CSS
+            </h1>
+          </header>
+        </div>
+        <div>
+          <Route path="/background" component={Background} />
+{/*          <Route path="/about" component={About} />*/}
+{/*          <Route path="/contact" component={Contact} />*/}
+        </div>
       </div>
     );
   }

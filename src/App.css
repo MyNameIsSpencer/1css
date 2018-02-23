@@ -1,28 +1,100 @@
 .App {
   text-align: center;
+  margin-bottom: 70px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.heads-up-nav {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  style: none;
+  font-family: helvetica, cursive, sans-serif;
+  padding-left: 20px;
 }
+
+.h1dog {
+  font-size: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* background: radial-gradient(rgb(253, 210, 255), rgb(250, 186, 255), white, rgb(253, 210, 255)); */
+  height: 100%;
+  width: 100%;
+}
+
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  margin-top: 30px;
+  background: rgba(255,255,255,0);
+  height: 25px;
+  /* padding: 20px; */
+  color: black;
+  border-radius: 5%;
+  background-color: #fff;
+  box-shadow:
+    0 0 30px 10px #fff,
+    0 0 33px 20px #f0f,
+    0 0 45px 30px #0ff;
 }
 
-.App-title {
-  font-size: 1.5em;
+.arranger {
+  width: 100%;
+  height: 400px;
+  margin: 50px 0;
 }
 
-.App-intro {
-  font-size: large;
+.arranger > div {
+  width: 25%;
+  display: inline-block;
+  height: 400px;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.labeller {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+}
+
+.blue-text {
+  color: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.back1 {
+  /* background-image: url('/Users/thisismyname/Desktop/js_prac/1css/src/images/logo.png'); */
+  background-color: cornflowerblue;
+}
+
+.back2 {
+  background-image: url('./images/forest-waterfall.jpg');
+  background-position: bottom;
+}
+
+.back3 {
+  background: linear-gradient(to bottom right,
+    blue, #0ff,
+    rgb(250, 186, 255),
+    rgb(253, 210, 255));
+}
+
+.back4 {
+  background: radial-gradient(yellow, yellowgreen, lightgreen);
+}
+
+.back5 {
+  background-image: url('./images/white-tiger.jpg');
+}
+
+.back6 {
+  background-image: url('./images/white-tiger.jpg');
+  background-position: center 0;
 }
