@@ -3,6 +3,15 @@
   margin-bottom: 70px;
 }
 
+.page-title {
+  text-align: center;
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-family: helvetica, cursive, sans-serif;
+  color: aliceblue;
+  text-shadow: 0px 0px 15px cornflowerblue;
+}
+
 .heads-up-nav {
   text-decoration: none;
   display: inline-block;
@@ -87,14 +96,81 @@
 }
 
 .back4 {
-  background: radial-gradient(yellow, yellowgreen, lightgreen);
+  background: radial-gradient(white, yellow, yellowgreen, lightgreen);
 }
 
-.back5 {
+.repeater1 {
   background-image: url('./images/white-tiger.jpg');
 }
 
-.back6 {
+.repeater2 {
   background-image: url('./images/white-tiger.jpg');
   background-position: center 0;
+}
+
+.repeater3 {
+  background-image: url('./images/white-tiger-small.jpg');
+}
+
+.repeater4 {
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: round;
+}
+
+.repeater5 {
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.repeater6 {
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.repeater7 {
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: space;
+  background-position: center;
+}
+
+.repeater8 {
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.positioner1 {
+  background-color: cornflowerblue;
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.positioner2 {
+  background-color: deepskyblue;
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.positioner3 {
+  background-color: skyblue;
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: no-repeat;
+  background-position: 70% 33%;
+}
+
+.positioner4 {
+  background-color:  dodgerblue;
+  background-image: url('./images/white-tiger-small.jpg');
+  background-repeat: no-repeat;
+  background-position: 15px 250px;
+}
+
+.attacher1 {
+  background-attachment: url('./images/white-tiger.jpg');
+  width: 100%;
+
 }
