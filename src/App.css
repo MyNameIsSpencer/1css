@@ -1,3 +1,7 @@
+body {
+  font-family: helvetica, cursive, sans-serif;
+}
+
 .App {
   text-align: center;
   margin-bottom: 70px;
@@ -9,7 +13,7 @@
   text-transform: uppercase;
   font-family: helvetica, cursive, sans-serif;
   color: aliceblue;
-  text-shadow: 0px 0px 15px cornflowerblue;
+  text-shadow: 0px 0px 20px cornflowerblue;
 }
 
 .heads-up-nav {
@@ -19,6 +23,17 @@
   style: none;
   font-family: helvetica, cursive, sans-serif;
   padding-left: 20px;
+  color: royalblue;
+}
+
+.heads-up-nav:visted {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  style: none;
+  font-family: helvetica, cursive, sans-serif;
+  padding-left: 20px;
+  color: royalblue;
 }
 
 .h1dog {
@@ -65,112 +80,4 @@
   background-color: yellow;
   display: inline-block;
   position: absolute;
-}
-
-.blue-text {
-  color: blue;
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 5px;
-  background-color: yellow;
-  display: inline-block;
-  position: absolute;
-
-}
-
-.back1 {
-  /* background-image: url('/Users/thisismyname/Desktop/js_prac/1css/src/images/logo.png'); */
-  background-color: cornflowerblue;
-}
-
-.back2 {
-  background-image: url('./images/forest-waterfall.jpg');
-  background-position: bottom;
-}
-
-.back3 {
-  background: linear-gradient(to bottom right,
-    blue, #0ff,
-    rgb(250, 186, 255),
-    rgb(253, 210, 255));
-}
-
-.back4 {
-  background: radial-gradient(white, yellow, yellowgreen, lightgreen);
-}
-
-.repeater1 {
-  background-image: url('./images/white-tiger.jpg');
-}
-
-.repeater2 {
-  background-image: url('./images/white-tiger.jpg');
-  background-position: center 0;
-}
-
-.repeater3 {
-  background-image: url('./images/white-tiger-small.jpg');
-}
-
-.repeater4 {
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: round;
-}
-
-.repeater5 {
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: repeat-x;
-  background-position: center;
-}
-
-.repeater6 {
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: repeat-y;
-  background-position: center;
-}
-
-.repeater7 {
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: space;
-  background-position: center;
-}
-
-.repeater8 {
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.positioner1 {
-  background-color: cornflowerblue;
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.positioner2 {
-  background-color: deepskyblue;
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: no-repeat;
-  background-position: top right;
-}
-
-.positioner3 {
-  background-color: skyblue;
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: no-repeat;
-  background-position: 70% 33%;
-}
-
-.positioner4 {
-  background-color:  dodgerblue;
-  background-image: url('./images/white-tiger-small.jpg');
-  background-repeat: no-repeat;
-  background-position: 15px 250px;
-}
-
-.attacher1 {
-  background-attachment: url('./images/white-tiger.jpg');
-  width: 100%;
-
 }

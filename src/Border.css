@@ -1,0 +1,101 @@
+.arranger-third {
+  width: 100%;
+  height: 450px;
+  margin: 50px 0;
+}
+
+.arranger-third > div {
+  width: 28%;
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  margin-left: 5px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  /* padding: 1vw auto; */
+}
+
+.border1 {
+  border-style: 10px hidden pink;
+  background: linear-gradient(to bottom right, seagreen, springgreen, palegreen);
+}
+
+.border2 {
+  border: 10px solid darkred;
+  background: linear-gradient(to bottom right, palegreen, springgreen, green);
+}
+
+.border3 {
+  border: 10px dotted purple;
+  background: linear-gradient(to top right, gold, palegreen, springgreen);
+}
+
+.border4 {
+  border: 10px groove firebrick;
+  background: linear-gradient(to top left, gold, palegreen, skyblue);
+}
+
+.border5 {
+  border: 10px ridge hotpink;
+  background: linear-gradient(to top left, springgreen, palegreen, gold);
+}
+
+.border6 {
+  border: 10px outset cadetblue;
+  background: linear-gradient(to top right, springgreen, gold, palegreen);
+}
+
+.border7 {
+  border-width: 10px;
+  border-color: teal;
+  border-style: double dashed inset none;
+  background-color: springgreen;
+}
+
+.border8 {
+  border-top: 10px solid green;
+  background: linear-gradient(to bottom, palegreen, rgba(0,0,0,0));
+}
+
+.border9 {
+  position: relative;
+  left: 40px;
+  top: 50px;
+  border: 10px solid cadetblue;
+  background: rgba(0,0,0,0);
+  height: 400px;
+}
+
+.border10 {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  margin-left: 10px;
+  position: absolute;
+  background: linear-gradient(to bottom right, lime, rgba(0,0,0,0), limegreen);
+}
+
+.border11 {
+  background: linear-gradient(to top right, lime, white, mediumseagreen, white, mediumaquamarine);
+  border-radius: 15px;
+  border-color: darkcyan;
+  border-width: 10px;
+}
+
+.border12 {
+  background: linear-gradient(to right, mediumspringgreen, rgba(0,0,0,0), whitesmoke, mediumspringgreen);
+  border-radius: 10px 20px 40px;
+  border-color: darkgreen;
+  border-width: 10px;
+}
+
+.border13 {
+  background: linear-gradient(to top, limegreen, rgba(0,0,0,0));
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 80px ;
+  border-color: darkolivegreen;
+  border-width: 10px;
+}

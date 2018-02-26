@@ -6,7 +6,10 @@ import {
 
 import React, { Component } from 'react';
 import './App.css';
+import './Background.css';
+import './Border.css';
 import Background from './Background.js';
+import Border from './Border.js';
 
 
 class App extends Component {
@@ -15,7 +18,9 @@ class App extends Component {
       <div>
         <nav>
           <Link to='/' className="heads-up-nav">Home </Link>
-          <Link to="/background" className="heads-up-nav">Background</Link>
+          <Link to="/background" className="heads-up-nav">Backgrounds</Link>
+          <Link to="/border" className="heads-up-nav">Borders</Link>
+
         </nav>
         <div className="App">
           <header className="App-header">
@@ -26,8 +31,7 @@ class App extends Component {
         </div>
         <div>
           <Route path="/background" component={Background} />
-{/*          <Route path="/about" component={About} />*/}
-{/*          <Route path="/contact" component={Contact} />*/}
+          <Route path="/border" component={Border} />
         </div>
       </div>
     );

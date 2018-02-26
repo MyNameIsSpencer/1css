@@ -104,45 +104,6 @@ class Background extends Component {
           </div>
         </div>
 
-{/*
-        <div className="arranger">
-          <div className="back13">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back14">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back15">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back16">
-            <h4 className="labeller">
-            </h4>
-          </div>
-        </div>
-
-        <div className="arranger">
-          <div className="back13">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back14">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back15">
-            <h4 className="labeller">
-            </h4>
-          </div>
-          <div className="back16">
-            <h4 className="labeller">
-            </h4>
-          </div>
-        </div>
-*/}
       </div>
     )
   }
